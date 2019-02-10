@@ -1,12 +1,9 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+School Project to simulate the passbook update system of a bank in a highly abstracted manner.
+DESCRIPTION –
+                      The project is to emulate an virtual computerized bank account management system explicitly depicting the various major processes involved in the system, for instance the creation of new bank account, the process of deposition into an account, the process of withdrawing  from an account and viewing the history of transaction for a particular account.
+                     On running the program a welcome screen appears and then the menu appears and each time a choice is made the screen clears and the corresponding messages appears guiding the user  . Each time a new account is created a new account number is issued to the user as a reference to that account. The program stores the last issued account number in a file for further reference.
+                  On a file each entry is stored with its corresponding account number and all details ,and in files with the same name of the account numbers the present balance of that account is saved.
+                    When the user wants to see the transaction history he needs to enter a particular account number and from the entry file all the transactions from that particular account is extracted and displayed on the screen following the format of a passbook update.
+                     As the program saves the information in files the termination of the program does not delete any data and the state is preserved to reset the full system one needs to delete the files with the account numbers as their name the main file of entry and the file account which stores the last account number .
+                   The main part of the program is menu driven and the sub parts ,creation of an account , depositing in an account and withdrawing from an account ,viewing history of transaction is done through calling other functions.
+                  The programming is an attempt as a over view and high abstraction on the system of digital bank account management. 
